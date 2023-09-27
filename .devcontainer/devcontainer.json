@@ -15,7 +15,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "sudo apt-get update && sudo apt-get install -y libspatialite7"
+	"postCreateCommand": "sudo apt-get update && sudo apt-get install -y libspatialite7 libsqlite3-mod-spatialite gdal-bin"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
